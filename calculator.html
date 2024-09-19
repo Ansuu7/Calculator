@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="box">
+        <p>CALCULATOR!</p>
+    <div class="container">
+    <input id="userInput" placeholder="0"></input>
+    </br>
+    <br>
+             <button class="orange" id="btn" onclick="press('+')">+</button>
+             <button id="btn" onclick="press(7)">7</button>
+             <button id="btn" onclick="press(8)">8</button>
+             <button id="btn" onclick="press(9)">9</button>
+        <br>
+            <button class="orange" id="btn" onclick="press('-')">-</button>
+            <button id="btn" onclick="press(4)">4</button>
+            <button id="btn" onclick="press(5)">5</button>
+            <button id="btn" onclick="press(6)">6</button>
+        <br>
+            <button class="orange" id="btn" onclick="press('*')">*</button>
+            <button id="btn" onclick="press(1)">1</button>
+            <button id="btn" onclick="press(2)">2</button>
+            <button id="btn" onclick="press(3)">3</button>
+        <br>
+            <button class="orange" id="btn" onclick="press('/')">/</button>
+            <button id="btn" onclick="press(0)">0</button>
+            <button id="btn" onclick="press('.')">.</button>
+            <button id="btn" onclick="equal()">=</button>
+        <br>
+            <button class="orange" id="btn" onclick="erase()">C</button>
+
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
