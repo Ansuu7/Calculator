@@ -1,36 +1,85 @@
+body {
+    background: linear-gradient(135deg, #0f3460 0%, #16a085 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
 
-.container{  
-    border: 2px solid black;
+.container {
+    border: none;
     width: auto;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.666);
+    background-color: #1a1a1a;
     color: white;
-    padding: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 
 }
-button{
- background-color: rgba(247, 243, 243, 0.204);
- border-radius: 50%;
- width: 40px;
- height: 40px;
- text-align: center;
- padding: 10px;
- margin: 2px;
- color: white;
- font-size: 1.2rem;
- 
+
+button {
+    background-color: #333333;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
-.orange{
-    background-color: rgba(246, 174, 41, 0.923);
+
+button:hover {
+    background-color: #444444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
 }
-.box{
+
+button:active {
+    transform: translateY(0);
+}
+
+.orange {
+    background-color: #16a085;
+    border-color: #138d73;
+    color: white;
+    font-weight: bold;
+}
+
+.orange:hover {
+    background-color: #138d73;
+}
+
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-p{
-    font-size: 1.6rem;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+p {
+    font-size: 1.8rem;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+#userInput {
+    background-color: #222222;
+    border: 2px solid #16a085;
+    border-radius: 8px;
+    color: #16a085;
+    font-size: 2rem;
+    padding: 16px;
+    width: 260px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-weight: bold;
 }
